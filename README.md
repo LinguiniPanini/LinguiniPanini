@@ -1,7 +1,7 @@
 # Hi, I'm Luis Alberto González Escamilla 👋
 
 **Software & Systems Engineer · Cloud Infrastructure (AWS) & AI Automation**  
-📍 Jalisco, Mexico · ✉️ [luisal.gonzaleze@gmail.com](mailto:luisal.gonzaleze@gmail.com) · 💼 [LinkedIn](https://www.linkedin.com/in/luis-alberto-gonzalez-escamilla)
+📍 Jalisco, Mexico · ✉️ [luisal.gonzaleze@gmail.com](mailto:luisal.gonzaleze@gmail.com) · 💼 [LinkedIn](https://www.linkedin.com/in/luis-gonzalez-escamilla)
 
 ---
 
@@ -75,5 +75,5 @@ Architecture       │ Event-Driven, Microservices, Serverless, FinOps / Cost Go
 ---
 
 ### Let's Connect
-- **LinkedIn:** [linkedin.com/in/luis-alberto-gonzalez-escamilla](https://www.linkedin.com/in/luis-alberto-gonzalez-escamilla)
+- **LinkedIn:** [linkedin.com/in/luis-gonzalez-escamilla](https://www.linkedin.com/in/luis-gonzalez-escamilla)
 - **Email:** [luisal.gonzaleze@gmail.com](mailto:luisal.gonzaleze@gmail.com)
