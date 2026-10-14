@@ -1,79 +1,200 @@
-# Hi, I'm Luis Alberto González Escamilla 👋
+<div align="center">
 
-**Software & Systems Engineer · Cloud Infrastructure (AWS) & AI Automation**  
-📍 Jalisco, Mexico · ✉️ [luisal.gonzaleze@gmail.com](mailto:luisal.gonzaleze@gmail.com) · 💼 [LinkedIn](https://www.linkedin.com/in/luis-gonzalez-escamilla)
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0:0a192f,40:112240,100:1e3a8a&height=220&section=header&text=Luis%20Alberto%20Gonz%C3%A1lez&fontSize=40&fontAlignY=36&desc=Software%20%26%20Systems%20Engineer%20%7C%20Cloud%20(AWS)%20%26%20AI%20Automation&descFontSize=17&descAlignY=60&fontColor=ffffff" width="100%" />
 
----
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/luis-gonzalez-escamilla)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:luisal.gonzaleze@gmail.com)
+[![Portfolio](https://img.shields.io/badge/GitHub%20Portfolio-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/LinguiniPanini)
+[![Location](https://img.shields.io/badge/Location-Jalisco%2C%20Mexico-4B5563?style=for-the-badge&logo=googlemaps&logoColor=white)](#)
 
-### About Me
-I build and operate resilient cloud infrastructure, event-driven distributed systems, and AI-powered automation workflows. 
+<br />
 
-At **TendencIA Systems**, I owned the production reliability of AI voice and chat agents processing **10,000+ executions per month**, implementing serverless webhook pipelines, LLM tracing & observability (Langfuse), and automated cost reporting. My focus is engineering scalable, secure systems on **AWS (EKS, Lambda, SQS, S3, RDS, IAM)** following least-privilege principles and GitOps automation.
+### 🚀 Systems & Software Engineer · Cloud Infrastructure & AI Automation
+*Architecting resilient cloud systems on AWS, decoupled event-driven workflows, and production AI agent platforms.*
 
----
-
-### Tech Stack & Core Competencies
-
-```
-Cloud & DevOps     │ AWS (EKS, EC2, Lambda, S3, SQS, SNS, RDS, SES, IAM), Kubernetes, Docker, Terraform, GitHub Actions, Linux
-AI & Automation    │ LLM Agents, Langfuse (Tracing/Observability), RAG, Vector Search, n8n, Vapi, Prompt Engineering
-Backend & Systems  │ Python, TypeScript, Node.js, FastAPI, PostgreSQL, Supabase, MySQL, DynamoDB, Redis, REST APIs
-Architecture       │ Event-Driven, Microservices, Serverless, FinOps / Cost Governance, Least-Privilege Security
-```
+</div>
 
 ---
 
-### Featured Cloud & Engineering Projects
+### 👨‍💻 Executive Summary
 
-#### 🚀 [AWS EKS Microservices Platform](https://github.com/LinguiniPanini/aws-eks-microservices-platform)
-*Distributed sales and invoicing microservices platform orchestrated on AWS EKS.*
-- Multi-container architecture with 4 decoupled services in Docker (`api`, `pdf-generator`, `notifier`, `receipt-worker`).
-- Asynchronous message buffering via **Amazon SQS**, asset storage in **Amazon S3**, and email alerts via **Amazon SNS**.
-- Relational state persistence with **Amazon RDS PostgreSQL** and zero-downtime rolling updates on Kubernetes.
+I am a software and systems engineer specialized in **cloud infrastructure (AWS)**, **container orchestration (Kubernetes / EKS)**, and **production AI agent workflows**. 
 
-#### ⚡ [AWS Serverless Order & Invoicing Pipeline](https://github.com/LinguiniPanini/aws-serverless-order-pipeline)
-*Event-driven serverless architecture orchestrated with AWS Step Functions.*
-- Stateful state machine coordinating 8 Python **AWS Lambda** functions with shared custom Lambda Layers.
-- Asynchronous queue decoupling with **Amazon SQS**, document storage in **Amazon S3**, and automated delivery with **Amazon SES**.
-- 100% automated infrastructure provisioning script via AWS CLI, IAM, and Amazon API Gateway.
-
-#### 🧠 [MLOps Pipeline on AWS](https://github.com/LinguiniPanini/MLemons)
-*End-to-end computer vision MLOps architecture orchestrated on AWS.*
-- Full Infrastructure as Code (IaC) written in **Terraform** managing IAM, S3, DynamoDB, and CloudWatch.
-- Deep learning inference hosted on **AWS SageMaker Endpoint**, orchestrated through **Step Functions** and **Lambda**.
-
-#### 📬 [AWS SQS Event-Driven Order Processor](https://github.com/LinguiniPanini/aws-sqs-event-processor)
-*High-throughput decoupled queue processing system.*
-- Message buffering using **Amazon SQS** (long-polling and visibility timeout retry logic) to prevent traffic dropouts.
-- Continuous background worker daemon on **Amazon EC2** persisting transactional records into **Amazon RDS PostgreSQL**.
-- Strict **IAM Least-Privilege** security policy governance. Includes architectural diagram and video walkthrough.
-
-#### 🔄 [Kubernetes GitOps CI/CD Pipeline](https://github.com/LinguiniPanini/k8s-cicd-pipeline)
-*Continuous integration and automated deployment pipeline.*
-- Automated multi-stage GitHub Actions workflows (`integrate`, `delivery`, `deploy`).
-- Automated testing on pull requests, Docker Hub image publishing with semantic versioning, and rolling deployments to Kubernetes.
-
-#### 🛠️ [Universal File Converter](https://github.com/LinguiniPanini/universal-file-converter)
-*Full-stack document processing service with automated AWS infrastructure.*
-- Automated provisioning of EC2 instances, Nginx reverse proxy, and systemd daemons.
-- **S3 Lifecycle Policies** for cost optimization and automatic 24-hour artifact garbage collection.
-- 30 unit/integration tests with `pytest` and `moto` AWS mocking.
-
-#### 🏡 [ReparaYa — Home Services Marketplace](https://github.com/LinguiniPanini/ReparaYa)
-*Full-stack on-demand home services platform with automated AWS cloud infrastructure.*
-- Monolith modular architecture built with **Next.js 14 (App Router)**, **TypeScript**, **PostgreSQL**, and **Prisma ORM**.
-- Infrastructure as Code (**Terraform**) provisioning **AWS S3** (media storage), **AWS SES** (transactional emails), **Amazon Location Service** (geocoding), and least-privilege **IAM** policies.
-- Integrated with **Stripe Connect Express** for split payouts, **Clerk** authentication, and automated CI/CD with GitHub Actions.
+* **Production Reliability:** Owned the end-to-end reliability of conversational AI phone and chat agents processing **10,000+ executions per month** at TendencIA Systems.
+* **Distributed Observability:** Integrated **Langfuse** distributed tracing and automated **Vitest** test suites to drastically slash incident MTTR across live production systems.
+* **FinOps & Governance:** Engineered serverless data ingestion pipelines turning high-frequency webhook events into automated per-client cost and usage telemetry.
+* **Infrastructure as Code (IaC):** Automated cloud infrastructure provisioning on AWS (S3, SES, Location Service, IAM) with **Terraform** following least-privilege security principles.
 
 ---
 
-### Production Track Record
-- **10,000+ Monthly AI Executions:** Engineered and maintained conversational phone and chat agent pipelines connecting telephony (Vapi, Twilio) to CRMs.
-- **Incident Response & Observability:** Integrated Langfuse tracing and automated Vitest suites, drastically cutting MTTR on production incidents.
-- **FinOps & Cost Governance:** Built serverless data pipelines ingesting webhook events to deliver per-client cost and usage reporting.
+### 📊 Production Track Record & Metrics
+
+| Metric | Focus Area | Engineering Implementation & Impact |
+| :---: | :--- | :--- |
+| **10,000+** | **Monthly AI Invocations** | Maintained production voice & chat agents connecting telephony (Vapi, Twilio) to CRMs with zero message dropouts. |
+| **12+** | **Critical Incidents Resolved** | Diagnosed and shipped fixes for multi-service production incidents using Langfuse tracing and health telemetry. |
+| **100%** | **Infrastructure as Code** | Automated cloud provisioning across AWS resources (S3, SES, IAM, Location Service) via declarative **Terraform** modules. |
+| **Zero-Drop** | **Event Decoupling** | Architected asynchronous queue buffering with **Amazon SQS** & **EC2 worker daemons** to absorb sudden concurrency bursts. |
 
 ---
 
-### Let's Connect
-- **LinkedIn:** [linkedin.com/in/luis-gonzalez-escamilla](https://www.linkedin.com/in/luis-gonzalez-escamilla)
-- **Email:** [luisal.gonzaleze@gmail.com](mailto:luisal.gonzaleze@gmail.com)
+### 🛠️ Tech Stack & Core Competencies
+
+<div align="center">
+
+#### Cloud Infrastructure & DevOps
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazon-aws&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare_Workers-F38020?style=flat-square&logo=cloudflare&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
+
+#### AI, Agents & Observability
+![LLM Agents](https://img.shields.io/badge/AI_Agents-Agentic_Workflows-6366F1?style=flat-square&logo=openai&logoColor=white)
+![Langfuse](https://img.shields.io/badge/Langfuse-LLM_Tracing-000000?style=flat-square&logo=langfuse&logoColor=white)
+![RAG](https://img.shields.io/badge/RAG-Vector_Embeddings-10B981?style=flat-square&logo=database&logoColor=white)
+![n8n](https://img.shields.io/badge/n8n-Workflow_Automation-EA4B71?style=flat-square&logo=n8n&logoColor=white)
+![Vapi](https://img.shields.io/badge/Vapi-Voice_AI-7C3AED?style=flat-square&logo=soundcharts&logoColor=white)
+
+#### Languages, Backend & Databases
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js_14-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Amazon RDS](https://img.shields.io/badge/Amazon_RDS-527FFF?style=flat-square&logo=amazon-rds&logoColor=white)
+![DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?style=flat-square&logo=amazondynamodb&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
+
+</div>
+
+---
+
+### 🌟 Featured Systems & Cloud Architectures
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🚀 <a href="https://github.com/LinguiniPanini/aws-eks-microservices-platform">AWS EKS Microservices Platform</a></h3>
+      <p>Distributed invoicing and sales platform running across 4 decoupled microservices inside an <b>Amazon EKS (Kubernetes)</b> cluster.</p>
+      <ul>
+        <li><b>Services:</b> REST API, PDF Generator, Notifier, and long-polling Receipt Worker.</li>
+        <li><b>Messaging & Storage:</b> Decoupled via <b>Amazon SQS</b>, invoice archival in <b>Amazon S3</b>, alerts via <b>Amazon SNS</b>, and persistence with <b>Amazon RDS PostgreSQL</b>.</li>
+        <li><b>Orchestration:</b> Declarative Kubernetes manifests, ConfigMaps, Secrets, and LoadBalancer services.</li>
+      </ul>
+      <p>
+        <a href="https://github.com/LinguiniPanini/aws-eks-microservices-platform">
+          <img src="https://img.shields.io/badge/View_Architecture_&_Code-FF9900?style=flat-square&logo=amazon-aws&logoColor=white" />
+        </a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>⚡ <a href="https://github.com/LinguiniPanini/aws-serverless-order-pipeline">AWS Serverless Order Pipeline</a></h3>
+      <p>Event-driven serverless architecture orchestrated with <b>AWS Step Functions</b> for high-throughput sales processing.</p>
+      <ul>
+        <li><b>Compute:</b> Stateful state machine orchestrating 8 <b>AWS Lambda</b> microservices with shared custom Lambda Layers.</li>
+        <li><b>Integration:</b> Ingestion buffered via <b>Amazon SQS</b>, receipts stored in <b>Amazon S3</b> with custom metadata, and transactional emails via <b>Amazon SES</b>.</li>
+        <li><b>Automation:</b> 100% automated cloud provisioning script with AWS CLI and Amazon API Gateway.</li>
+      </ul>
+      <p>
+        <a href="https://github.com/LinguiniPanini/aws-serverless-order-pipeline">
+          <img src="https://img.shields.io/badge/View_Architecture_&_Code-8C4FFF?style=flat-square&logo=awslambda&logoColor=white" />
+        </a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🏡 <a href="https://github.com/LinguiniPanini/ReparaYa">ReparaYa — Marketplace (Terraform IaC)</a></h3>
+      <p>Full-stack on-demand home services platform with automated cloud infrastructure on AWS provisioned via <b>Terraform</b>.</p>
+      <ul>
+        <li><b>Infrastructure as Code:</b> Terraform modules managing <b>Amazon S3</b> (media), <b>Amazon SES</b> (emails), <b>Amazon Location Service</b> (geocoding), and least-privilege <b>IAM</b> policies.</li>
+        <li><b>Application Stack:</b> Modular monolith built with <b>Next.js 14 (App Router)</b>, TypeScript, Prisma ORM, PostgreSQL, and Stripe Connect.</li>
+        <li><b>DevOps:</b> Continuous integration and automated validation on GitHub Actions.</li>
+      </ul>
+      <p>
+        <a href="https://github.com/LinguiniPanini/ReparaYa">
+          <img src="https://img.shields.io/badge/View_Terraform_&_App-844FBA?style=flat-square&logo=terraform&logoColor=white" />
+        </a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🧠 <a href="https://github.com/LinguiniPanini/MLemons">MLOps Pipeline on AWS</a></h3>
+      <p>End-to-end computer vision machine learning pipeline orchestrated on AWS with <b>Terraform</b>.</p>
+      <ul>
+        <li><b>Inference:</b> Deep learning MobileNetV2 transfer learning deployed to an <b>AWS SageMaker Endpoint</b>.</li>
+        <li><b>Orchestration:</b> Multi-step execution via <b>AWS Step Functions</b> and <b>Lambda</b> storing metadata in <b>DynamoDB</b> and artifacts in <b>S3</b>.</li>
+        <li><b>IaC:</b> Full infrastructure codified with Terraform including CloudWatch alarms and IAM execution roles.</li>
+      </ul>
+      <p>
+        <a href="https://github.com/LinguiniPanini/MLemons">
+          <img src="https://img.shields.io/badge/View_MLOps_Pipeline-FF9900?style=flat-square&logo=amazons3&logoColor=white" />
+        </a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>📬 <a href="https://github.com/LinguiniPanini/aws-sqs-event-processor">AWS SQS Event-Driven Processor</a></h3>
+      <p>Asynchronous queue buffering system engineered to decouple burst traffic from relational database writes.</p>
+      <ul>
+        <li><b>Queue Decoupling:</b> <b>Amazon SQS</b> with long-polling (20s) and visibility timeout rollback handling.</li>
+        <li><b>Compute & DB:</b> Daemon running on an <b>Amazon EC2</b> instance persisting transactions to <b>Amazon RDS PostgreSQL</b>.</li>
+        <li><b>Security:</b> EC2 instance profile assuming strict least-privilege IAM policies. Includes architectural diagram & video walkthrough.</li>
+      </ul>
+      <p>
+        <a href="https://github.com/LinguiniPanini/aws-sqs-event-processor">
+          <img src="https://img.shields.io/badge/View_Code_&_Demo-FF4F8B?style=flat-square&logo=amazon-aws&logoColor=white" />
+        </a>
+        <a href="https://youtu.be/OgofPu4OWu4">
+          <img src="https://img.shields.io/badge/Watch_Video_Demo-FF0000?style=flat-square&logo=youtube&logoColor=white" />
+        </a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🔄 <a href="https://github.com/LinguiniPanini/k8s-cicd-pipeline">Kubernetes GitOps CI/CD Pipeline</a></h3>
+      <p>Continuous integration and delivery pipeline automating multi-stage testing, container builds, and Kubernetes rollouts.</p>
+      <ul>
+        <li><b>CI Stage:</b> Pull request test validation with automated gates.</li>
+        <li><b>CD Stage:</b> Multi-architecture Docker builds published to Docker Hub upon semver git tagging (`v*`).</li>
+        <li><b>Deploy Stage:</b> Zero-downtime rolling update deployment to a Kubernetes cluster applying declarative manifests.</li>
+      </ul>
+      <p>
+        <a href="https://github.com/LinguiniPanini/k8s-cicd-pipeline">
+          <img src="https://img.shields.io/badge/View_CI%2FCD_Workflows-326CE5?style=flat-square&logo=kubernetes&logoColor=white" />
+        </a>
+      </p>
+    </td>
+  </tr>
+</table>
+
+---
+
+### 📈 GitHub Analytics & Activity
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=LinguiniPanini&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117" height="165" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LinguiniPanini&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117" height="165" />
+
+</div>
+
+---
+
+<div align="center">
+
+### 🤝 Let's Connect
+Feel free to reach out for engineering opportunities, cloud architecture discussions, or collaboration on distributed AI systems.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/luis-gonzalez-escamilla)
+[![Email](https://img.shields.io/badge/Email-luisal.gonzaleze%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:luisal.gonzaleze@gmail.com)
+
+<br />
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0:0a192f,40:112240,100:1e3a8a&height=90&section=footer" width="100%" />
+
+</div>
