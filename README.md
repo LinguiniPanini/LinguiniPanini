@@ -59,6 +59,12 @@ Architecture       │ Event-Driven, Microservices, Serverless, FinOps / Cost Go
 - **S3 Lifecycle Policies** for cost optimization and automatic 24-hour artifact garbage collection.
 - 30 unit/integration tests with `pytest` and `moto` AWS mocking.
 
+#### 🏡 [ReparaYa — Home Services Marketplace](https://github.com/LinguiniPanini/ReparaYa)
+*Full-stack on-demand home services platform with automated AWS cloud infrastructure.*
+- Monolith modular architecture built with **Next.js 14 (App Router)**, **TypeScript**, **PostgreSQL**, and **Prisma ORM**.
+- Infrastructure as Code (**Terraform**) provisioning **AWS S3** (media storage), **AWS SES** (transactional emails), **Amazon Location Service** (geocoding), and least-privilege **IAM** policies.
+- Integrated with **Stripe Connect Express** for split payouts, **Clerk** authentication, and automated CI/CD with GitHub Actions.
+
 ---
 
 ### Production Track Record
