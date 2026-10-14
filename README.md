@@ -11,7 +11,7 @@
 
 <br />
 
-### 🚀 Systems & Software Engineer · Cloud Infrastructure & AI Automation
+### 🚀 Computer Systems Engineer | AI & Agent Engineer
 *Architecting resilient cloud systems on AWS, decoupled event-driven workflows, and production AI agent platforms.*
 
 </div>
