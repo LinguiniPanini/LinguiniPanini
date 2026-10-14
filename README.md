@@ -1,10 +1,12 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0:0a192f,40:112240,100:1e3a8a&height=220&section=header&text=Luis%20Alberto%20Gonz%C3%A1lez&fontSize=40&fontAlignY=36&desc=Software%20%26%20Systems%20Engineer%20%7C%20Cloud%20(AWS)%20%26%20AI%20Automation&descFontSize=17&descAlignY=60&fontColor=ffffff" width="100%" />
+<img src="./assets/banner.svg" width="100%" alt="Luis Alberto González Escamilla - Software &amp; Systems Engineer" />
+
+<br />
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/luis-gonzalez-escamilla)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:luisal.gonzaleze@gmail.com)
-[![Portfolio](https://img.shields.io/badge/GitHub%20Portfolio-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/LinguiniPanini)
+[![Email](https://img.shields.io/badge/Email-luisal.gonzaleze%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](https://mail.google.com/mail/?view=cm&fs=1&to=luisal.gonzaleze@gmail.com)
+[![GitHub Portfolio](https://img.shields.io/badge/GitHub%20Portfolio-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/LinguiniPanini)
 [![Location](https://img.shields.io/badge/Location-Jalisco%2C%20Mexico-4B5563?style=for-the-badge&logo=googlemaps&logoColor=white)](#)
 
 <br />
@@ -18,7 +20,7 @@
 
 ### 👨‍💻 Executive Summary
 
-I am a software and systems engineer specialized in **cloud infrastructure (AWS)**, **container orchestration (Kubernetes / EKS)**, and **production AI agent workflows**. 
+I am a software and systems engineer specialized in **cloud infrastructure (AWS)**, **container orchestration (Kubernetes / EKS)**, and **production AI agent workflows**.
 
 * **Production Reliability:** Owned the end-to-end reliability of conversational AI phone and chat agents processing **10,000+ executions per month** at TendencIA Systems.
 * **Distributed Observability:** Integrated **Langfuse** distributed tracing and automated **Vitest** test suites to drastically slash incident MTTR across live production systems.
@@ -79,6 +81,36 @@ I am a software and systems engineer specialized in **cloud infrastructure (AWS)
 <table>
   <tr>
     <td width="50%" valign="top">
+      <h3>🏡 <a href="https://github.com/LinguiniPanini/ReparaYa">ReparaYa — Marketplace (Terraform IaC)</a></h3>
+      <p>Production full-stack on-demand home services platform with automated cloud infrastructure on AWS provisioned via <b>Terraform</b>.</p>
+      <ul>
+        <li><b>Infrastructure as Code:</b> Terraform modules managing <b>Amazon S3</b> (media), <b>Amazon SES</b> (emails), <b>Amazon Location Service</b> (geocoding), and least-privilege <b>IAM</b> policies.</li>
+        <li><b>Application Stack:</b> Modular monolith built with <b>Next.js 14 (App Router)</b>, TypeScript, Prisma ORM, PostgreSQL, and Stripe Connect.</li>
+        <li><b>DevOps:</b> Continuous integration and automated validation on GitHub Actions.</li>
+      </ul>
+      <p>
+        <a href="https://github.com/LinguiniPanini/ReparaYa">
+          <img src="https://img.shields.io/badge/View_Terraform_&_App-844FBA?style=flat-square&logo=terraform&logoColor=white" />
+        </a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🧠 <a href="https://github.com/LinguiniPanini/MLemons">MLemons — MLOps Pipeline on AWS</a></h3>
+      <p>End-to-end computer vision machine learning pipeline orchestrated on AWS with <b>Terraform</b>.</p>
+      <ul>
+        <li><b>Inference:</b> Deep learning MobileNetV2 transfer learning deployed to an <b>AWS SageMaker Endpoint</b>.</li>
+        <li><b>Orchestration:</b> Multi-step execution via <b>AWS Step Functions</b> and <b>Lambda</b> storing metadata in <b>DynamoDB</b> and artifacts in <b>S3</b>.</li>
+        <li><b>IaC:</b> Full infrastructure codified with Terraform including CloudWatch alarms and IAM execution roles.</li>
+      </ul>
+      <p>
+        <a href="https://github.com/LinguiniPanini/MLemons">
+          <img src="https://img.shields.io/badge/View_MLOps_Pipeline-FF9900?style=flat-square&logo=amazons3&logoColor=white" />
+        </a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
       <h3>🚀 <a href="https://github.com/LinguiniPanini/aws-eks-microservices-platform">AWS EKS Microservices Platform</a></h3>
       <p>Distributed invoicing and sales platform running across 4 decoupled microservices inside an <b>Amazon EKS (Kubernetes)</b> cluster.</p>
       <ul>
@@ -103,36 +135,6 @@ I am a software and systems engineer specialized in **cloud infrastructure (AWS)
       <p>
         <a href="https://github.com/LinguiniPanini/aws-serverless-order-pipeline">
           <img src="https://img.shields.io/badge/View_Architecture_&_Code-8C4FFF?style=flat-square&logo=awslambda&logoColor=white" />
-        </a>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🏡 <a href="https://github.com/LinguiniPanini/ReparaYa">ReparaYa — Marketplace (Terraform IaC)</a></h3>
-      <p>Full-stack on-demand home services platform with automated cloud infrastructure on AWS provisioned via <b>Terraform</b>.</p>
-      <ul>
-        <li><b>Infrastructure as Code:</b> Terraform modules managing <b>Amazon S3</b> (media), <b>Amazon SES</b> (emails), <b>Amazon Location Service</b> (geocoding), and least-privilege <b>IAM</b> policies.</li>
-        <li><b>Application Stack:</b> Modular monolith built with <b>Next.js 14 (App Router)</b>, TypeScript, Prisma ORM, PostgreSQL, and Stripe Connect.</li>
-        <li><b>DevOps:</b> Continuous integration and automated validation on GitHub Actions.</li>
-      </ul>
-      <p>
-        <a href="https://github.com/LinguiniPanini/ReparaYa">
-          <img src="https://img.shields.io/badge/View_Terraform_&_App-844FBA?style=flat-square&logo=terraform&logoColor=white" />
-        </a>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🧠 <a href="https://github.com/LinguiniPanini/MLemons">MLOps Pipeline on AWS</a></h3>
-      <p>End-to-end computer vision machine learning pipeline orchestrated on AWS with <b>Terraform</b>.</p>
-      <ul>
-        <li><b>Inference:</b> Deep learning MobileNetV2 transfer learning deployed to an <b>AWS SageMaker Endpoint</b>.</li>
-        <li><b>Orchestration:</b> Multi-step execution via <b>AWS Step Functions</b> and <b>Lambda</b> storing metadata in <b>DynamoDB</b> and artifacts in <b>S3</b>.</li>
-        <li><b>IaC:</b> Full infrastructure codified with Terraform including CloudWatch alarms and IAM execution roles.</li>
-      </ul>
-      <p>
-        <a href="https://github.com/LinguiniPanini/MLemons">
-          <img src="https://img.shields.io/badge/View_MLOps_Pipeline-FF9900?style=flat-square&logo=amazons3&logoColor=white" />
         </a>
       </p>
     </td>
@@ -174,27 +176,12 @@ I am a software and systems engineer specialized in **cloud infrastructure (AWS)
 
 ---
 
-### 📈 GitHub Analytics & Activity
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=LinguiniPanini&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117" height="165" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LinguiniPanini&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117" height="165" />
-
-</div>
-
----
-
 <div align="center">
 
 ### 🤝 Let's Connect
 Feel free to reach out for engineering opportunities, cloud architecture discussions, or collaboration on distributed AI systems.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/luis-gonzalez-escamilla)
-[![Email](https://img.shields.io/badge/Email-luisal.gonzaleze%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:luisal.gonzaleze@gmail.com)
-
-<br />
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0:0a192f,40:112240,100:1e3a8a&height=90&section=footer" width="100%" />
+[![Email](https://img.shields.io/badge/Email-luisal.gonzaleze%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](https://mail.google.com/mail/?view=cm&fs=1&to=luisal.gonzaleze@gmail.com)
 
 </div>
